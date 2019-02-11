@@ -91,4 +91,5 @@
   (lib (name 74HC175D)(type Legacy)(uri "C:/Users/nicol/Documents/KiCAD Schematic/GBDSO/74HC175D.lib")(options "")(descr ""))
   (lib (name AT27C256R)(type Legacy)(uri "C:/Users/nicol/Documents/KiCAD Schematic/GBDSO/AT27C256R.lib")(options "")(descr ""))
   (lib (name MAX828EUK)(type Legacy)(uri "C:/Users/nicol/Documents/KiCAD Schematic/GBDSO/MAX828EUK.lib")(options "")(descr ""))
+  (lib (name MJ-3523-SMT-TR)(type Legacy)(uri "C:/Users/nicol/Documents/KiCAD Schematic/GBDSO/MJ-3523-SMT-TR.lib")(options "")(descr ""))
 )
