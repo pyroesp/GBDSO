@@ -2157,6 +2157,204 @@ Wire Wire Line
 	2050 4450 2050 4470
 Wire Wire Line
 	2050 4450 2050 4420
+Connection ~ 2050 4450
+$Comp
+L Connector_Generic:Conn_01x32 J3
+U 1 1 5C696C85
+P 10790 4770
+F 0 "J3" H 10870 4762 50  0000 L CNN
+F 1 "Conn_01x32" H 10870 4671 50  0000 L CNN
+F 2 "GB_EdgeConnector:GB_EdgeConnector" H 10790 4770 50  0001 C CNN
+F 3 "~" H 10790 4770 50  0001 C CNN
+	1    10790 4770
+	1    0    0    -1  
+$EndComp
+Text GLabel 10550 3220 1    50   Input ~ 0
++5V
+Wire Wire Line
+	10550 3220 10550 3270
+Wire Wire Line
+	10550 3270 10590 3270
+Entry Wire Line
+	10150 3470 10250 3370
+Wire Wire Line
+	10250 3370 10590 3370
+Entry Wire Line
+	10150 3570 10250 3470
+Wire Wire Line
+	10250 3470 10590 3470
+Entry Wire Line
+	10150 3670 10250 3570
+Wire Wire Line
+	10250 3570 10590 3570
+Entry Wire Line
+	10150 3870 10250 3770
+Entry Wire Line
+	10150 3970 10250 3870
+Entry Wire Line
+	10150 4070 10250 3970
+Entry Wire Line
+	10150 4170 10250 4070
+Entry Wire Line
+	10150 4270 10250 4170
+Entry Wire Line
+	10150 4370 10250 4270
+Entry Wire Line
+	10150 4470 10250 4370
+Entry Wire Line
+	10150 4570 10250 4470
+Entry Wire Line
+	10150 4670 10250 4570
+Entry Wire Line
+	10150 4770 10250 4670
+Entry Wire Line
+	10150 4870 10250 4770
+Entry Wire Line
+	10150 4970 10250 4870
+Entry Wire Line
+	10150 5070 10250 4970
+Entry Wire Line
+	10150 5170 10250 5070
+Entry Wire Line
+	10150 5270 10250 5170
+Entry Wire Line
+	10150 5370 10250 5270
+Wire Wire Line
+	10250 5270 10590 5270
+Entry Wire Line
+	10150 5470 10250 5370
+Entry Wire Line
+	10150 5570 10250 5470
+Entry Wire Line
+	10150 5670 10250 5570
+Entry Wire Line
+	10150 5770 10250 5670
+Entry Wire Line
+	10150 5870 10250 5770
+Entry Wire Line
+	10150 5970 10250 5870
+Entry Wire Line
+	10150 6070 10250 5970
+Entry Wire Line
+	10150 6170 10250 6070
+$Comp
+L power:GND #PWR0124
+U 1 1 5CBE744A
+P 10530 6410
+F 0 "#PWR0124" H 10530 6160 50  0001 C CNN
+F 1 "GND" H 10535 6237 50  0000 C CNN
+F 2 "" H 10530 6410 50  0001 C CNN
+F 3 "" H 10530 6410 50  0001 C CNN
+	1    10530 6410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10530 6410 10530 6370
+Wire Wire Line
+	10530 6370 10590 6370
+Text Label 10390 5370 0    50   ~ 0
+D0
+Text Label 10390 5470 0    50   ~ 0
+D1
+Text Label 10390 5570 0    50   ~ 0
+D2
+Text Label 10390 5670 0    50   ~ 0
+D3
+Text Label 10390 5770 0    50   ~ 0
+D4
+Text Label 10390 5870 0    50   ~ 0
+D5
+Text Label 10390 5970 0    50   ~ 0
+D6
+Text Label 10390 6070 0    50   ~ 0
+D7
+Wire Wire Line
+	10250 5370 10590 5370
+Wire Wire Line
+	10250 5470 10590 5470
+Wire Wire Line
+	10250 5570 10590 5570
+Wire Wire Line
+	10250 5670 10590 5670
+Wire Wire Line
+	10250 5770 10590 5770
+Wire Wire Line
+	10250 5870 10590 5870
+Wire Wire Line
+	10250 5970 10590 5970
+Wire Wire Line
+	10250 6070 10590 6070
+Text Label 10390 3770 0    50   ~ 0
+A0
+Text Label 10390 3870 0    50   ~ 0
+A1
+Text Label 10390 3970 0    50   ~ 0
+A2
+Text Label 10390 4070 0    50   ~ 0
+A3
+Text Label 10390 4170 0    50   ~ 0
+A4
+Text Label 10390 4270 0    50   ~ 0
+A5
+Text Label 10390 4370 0    50   ~ 0
+A6
+Text Label 10390 4470 0    50   ~ 0
+A7
+Text Label 10390 4570 0    50   ~ 0
+A8
+Text Label 10390 4670 0    50   ~ 0
+A9
+Text Label 10390 4770 0    50   ~ 0
+A10
+Text Label 10390 4870 0    50   ~ 0
+A11
+Text Label 10390 4970 0    50   ~ 0
+A12
+Text Label 10390 5070 0    50   ~ 0
+A13
+Text Label 10390 5170 0    50   ~ 0
+A14
+Wire Wire Line
+	10250 5170 10590 5170
+Wire Wire Line
+	10250 5070 10590 5070
+Wire Wire Line
+	10250 4970 10590 4970
+Wire Wire Line
+	10250 4870 10590 4870
+Wire Wire Line
+	10250 4770 10590 4770
+Wire Wire Line
+	10250 4270 10590 4270
+Wire Wire Line
+	10250 4370 10590 4370
+Wire Wire Line
+	10250 4470 10590 4470
+Wire Wire Line
+	10250 4570 10590 4570
+Wire Wire Line
+	10250 4670 10590 4670
+Wire Wire Line
+	10250 4070 10590 4070
+Wire Wire Line
+	10250 4170 10590 4170
+Wire Wire Line
+	10250 3770 10590 3770
+Wire Wire Line
+	10250 3870 10590 3870
+Wire Wire Line
+	10250 3970 10590 3970
+Text Label 10360 3370 0    50   ~ 0
+ECLK
+Text Label 10370 3570 0    50   ~ 0
+~RD
+Text Label 10370 3470 0    50   ~ 0
+~WR
+Text Label 10390 5270 0    50   ~ 0
+A15
+NoConn ~ 10590 6270
+NoConn ~ 10590 6170
+NoConn ~ 10590 3670
 Wire Bus Line
 	5370 2670 5370 3310
 Wire Bus Line
@@ -2168,6 +2366,5 @@ Wire Bus Line
 Wire Bus Line
 	8450 3310 8450 6460
 Wire Bus Line
-	10150 4310 10150 6460
-Connection ~ 2050 4450
+	10150 3340 10150 6460
 $EndSCHEMATC
