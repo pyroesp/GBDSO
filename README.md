@@ -10,6 +10,4 @@ GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz
 
 ## PCB
 
-<img src="./pcb-front.png">
-
-<img src="./pcb-back.png">
+<center><img src="./pcb-front.png">   <img src="./pcb-back.png"></center>
