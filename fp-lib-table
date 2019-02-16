@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name MJ-3523-SMT-TR)(type KiCad)(uri ${KIPRJMOD}/MJ-3523-SMT-TR.pretty)(options "")(descr ""))
+  (lib (name GB_EdgeConnector)(type KiCad)(uri ${KIPRJMOD}/GB_EdgeConnector.pretty)(options "")(descr ""))
 )
