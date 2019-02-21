@@ -34,7 +34,7 @@ GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz
 | K1, K2                                              | 3.5mm stereo socket -> mono smd          |           0.88 |      2 |        1.76 | https://www.digikey.be/product-detail/en/cui-inc/MJ-3523-SMT-TR/CP-3523MJCT-ND/669691                        |
 
 
-Total Price: 31.33€				
+Total Price: 31.33€  			
 Total Components: 70
 
 ## Schematic
