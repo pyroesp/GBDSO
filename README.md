@@ -30,7 +30,7 @@ GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz
 | IC7                                                | AT27C256R-12JC -> AT27C256R-70JU         |            1.2 |      1 |         1.2 | https://www.digikey.be/product-detail/en/microchip-technology/AT27C256R-70JU/AT27C256R-70JU-ND/1008583       |
 | IC8                                                | TLC27L2CD                                |           0.86 |      1 |        0.86 | https://www.digikey.be/product-detail/en/texas-instruments/TLC27L2CDR/296-1316-1-ND/404950                   |
 | IC9                                                | MAX828EUK                                |            4.5 |      1 |         4.5 | https://www.digikey.be/product-detail/en/MAX828EUK%2bT/MAX828EUK%2bTCT-ND/2699369/?itemSeq=284207452         |
-| S1, S2                                              | Secme slide switch 1 change-over contact |           0.49 |      2 |        0.98 | https://www.digikey.be/product-detail/en/c-k/JS102011SAQN/401-1999-1-ND/1640114                              |
+| S1, S2                                              | Slide switch 1 change-over contact |           0.49 |      2 |        0.98 | https://www.digikey.be/product-detail/en/c-k/JS102011SAQN/401-1999-1-ND/1640114                              |
 | K1, K2                                              | 3.5mm stereo socket -> mono smd          |           0.88 |      2 |        1.76 | https://www.digikey.be/product-detail/en/cui-inc/MJ-3523-SMT-TR/CP-3523MJCT-ND/669691                        |
 
 
