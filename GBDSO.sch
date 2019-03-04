@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L linear:TL062 U1
+L Amplifier_Operational:TL062 U1
 U 1 1 5C60B30E
 P 4560 1210
 F 0 "U1" H 4560 1410 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "" H 4560 1210 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L linear:TL062 U1
+L Amplifier_Operational:TL062 U1
 U 2 1 5C60B373
 P 2530 1730
 F 0 "U1" H 2530 1930 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 2530 1730 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L linear:TL062 U3
+L Amplifier_Operational:TL062 U3
 U 1 1 5C60B392
 P 4520 4750
 F 0 "U3" H 4520 4950 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 4520 4750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L linear:TL062 U3
+L Amplifier_Operational:TL062 U3
 U 2 1 5C60B3F3
 P 2560 4170
 F 0 "U3" H 2560 4370 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 2560 4170 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L maxim:DS1267_SOIC U2
+L Potentiometer_Digital:DS1267_SOIC U2
 U 1 1 5C60B43A
 P 4410 3000
 F 0 "U2" H 4160 3450 50  0000 L CNN
@@ -664,7 +664,7 @@ F 3 "~" H 1870 5080 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bav199:BAV199 D1
+L BAV199:BAV199 D1
 U 1 1 5C61AAEF
 P 1980 930
 F 0 "D1" H 1830 1030 50  0000 C CNN
@@ -774,7 +774,7 @@ F 3 "" H 1430 6740 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L bav199:BAV199 D2
+L BAV199:BAV199 D2
 U 1 1 5C62C724
 P 2090 3320
 F 0 "D2" H 1940 3420 50  0000 C CNN
@@ -1983,18 +1983,18 @@ Text Label 5190 2650 0    50   ~ 0
 D1
 NoConn ~ 4810 3100
 NoConn ~ 4810 3200
-Text GLabel 4460 850  1    50   Input ~ 0
+Text GLabel 3290 1310 1    50   Input ~ 0
 +5VA
 Wire Wire Line
-	4460 850  4460 910 
-Text GLabel 4530 1560 2    50   Input ~ 0
+	3290 1310 3290 1370
+Text GLabel 3360 2020 2    50   Input ~ 0
 -5V
-Text GLabel 4500 4380 2    50   Input ~ 0
+Text GLabel 3170 4620 0    50   Input ~ 0
 -5V
-Text GLabel 4420 5110 3    50   Input ~ 0
+Text GLabel 3250 3890 1    50   Input ~ 0
 +5VA
 Wire Wire Line
-	4420 5110 4420 5050
+	3250 3890 3250 3950
 Wire Wire Line
 	4010 2800 3700 2800
 Wire Wire Line
@@ -2146,13 +2146,13 @@ Wire Wire Line
 	3690 4650 3820 4650
 Connection ~ 3820 4650
 Wire Wire Line
-	4530 1560 4460 1560
+	3360 2020 3290 2020
 Wire Wire Line
-	4460 1560 4460 1510
+	3290 2020 3290 1970
 Wire Wire Line
-	4500 4380 4420 4380
+	3170 4620 3250 4620
 Wire Wire Line
-	4420 4380 4420 4450
+	3250 4620 3250 4550
 Wire Wire Line
 	2050 4450 2050 4470
 Wire Wire Line
@@ -2355,6 +2355,32 @@ A15
 NoConn ~ 10590 6270
 NoConn ~ 10590 6170
 NoConn ~ 10590 3670
+$Comp
+L Amplifier_Operational:TL062 U1
+U 3 1 5C833BB5
+P 3390 1670
+F 0 "U1" H 3348 1716 50  0000 L CNN
+F 1 "TL062" H 3348 1625 50  0000 L CNN
+F 2 "" H 3390 1670 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl061.pdf" H 3390 1670 50  0001 C CNN
+	3    3390 1670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL062 U3
+U 3 1 5C833D27
+P 3350 4250
+F 0 "U3" H 3308 4296 50  0000 L CNN
+F 1 "TL062" H 3308 4205 50  0000 L CNN
+F 2 "" H 3350 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl061.pdf" H 3350 4250 50  0001 C CNN
+	3    3350 4250
+	1    0    0    -1  
+$EndComp
+Text Notes 7380 7500 0    50   ~ 0
+Game Boy Oscilloscope in KiCAD
+Text Notes 8140 7640 0    50   ~ 0
+04/03/2019
 Wire Bus Line
 	5370 2670 5370 3310
 Wire Bus Line
