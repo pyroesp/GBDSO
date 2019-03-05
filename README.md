@@ -62,14 +62,15 @@ While in programming mode, the EPROM needs 6.5V to VCC and I'd rather not have i
 
 The EPROM should be able to be programmed through the edge connector with either a homemade programmer or an adapter board for an existing Universal Programmer (like the TL866 or other).  
 Connections are as follows:  
-|       Bus       |   GB Edge Connector   |   AT27C256R EPROM   |
-|-----------------|-----------------------|---------------------|
-|     Address     |        A0 - A14       |       A0 - A14      |
-|      Data       |        D0 - D7        |       D0 - D7       |
-|   Chip Enable   |          A15          |         /CE         |
-|  Output Enable  |          /RD          |         /OE         |
-|       Vcc       |          Vcc          |         Vcc         |
-|       Vpp       |          Vpp          |         Vpp         |
+
+|       Bus       |   GB Edge Connector   |   AT27C256R EPROM   | 
+|-----------------|-----------------------|---------------------| 
+|     Address     |        A0 - A14       |       A0 - A14      | 
+|      Data       |        D0 - D7        |       D0 - D7       | 
+|   Chip Enable   |          A15          |         /CE         | 
+|  Output Enable  |          /RD          |         /OE         | 
+|       Vcc       |          Vcc          |         Vcc         | 
+|       Vpp       |          Vpp          |         Vpp         | 
 
 <img src="./schematic-eprom.png">
 
