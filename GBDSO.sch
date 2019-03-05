@@ -578,34 +578,34 @@ $EndComp
 $Comp
 L Device:CP1_Small C28
 U 1 1 5C618C17
-P 3150 7050
-F 0 "C28" H 3160 7120 50  0000 L CNN
-F 1 "10µ" H 3160 6970 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3150 7050 50  0001 C CNN
-F 3 "" H 3150 7050 50  0001 C CNN
-	1    3150 7050
+P 3150 7110
+F 0 "C28" H 3160 7180 50  0000 L CNN
+F 1 "10µ" H 3160 7030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3150 7110 50  0001 C CNN
+F 3 "" H 3150 7110 50  0001 C CNN
+	1    3150 7110
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP1_Small C31
 U 1 1 5C618CCF
-P 3650 7050
-F 0 "C31" H 3660 7120 50  0000 L CNN
-F 1 "10µ" H 3660 6970 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3650 7050 50  0001 C CNN
-F 3 "" H 3650 7050 50  0001 C CNN
-	1    3650 7050
+P 3690 7110
+F 0 "C31" H 3700 7180 50  0000 L CNN
+F 1 "10µ" H 3700 7030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3690 7110 50  0001 C CNN
+F 3 "" H 3690 7110 50  0001 C CNN
+	1    3690 7110
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP1_Small C33
 U 1 1 5C618D96
-P 3900 7050
-F 0 "C33" H 3910 7120 50  0000 L CNN
-F 1 "10µ" H 3910 6970 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3900 7050 50  0001 C CNN
-F 3 "" H 3900 7050 50  0001 C CNN
-	1    3900 7050
+P 3900 7110
+F 0 "C33" H 3910 7180 50  0000 L CNN
+F 1 "10µ" H 3910 7030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3900 7110 50  0001 C CNN
+F 3 "" H 3900 7110 50  0001 C CNN
+	1    3900 7110
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -622,23 +622,23 @@ $EndComp
 $Comp
 L Device:L_Small L2
 U 1 1 5C619CA4
-P 3420 6830
-F 0 "L2" V 3470 6830 50  0000 L CNN
-F 1 "100µ" V 3370 6730 50  0000 L CNN
-F 2 "Inductor_SMD:L_1206_3216Metric" H 3420 6830 50  0001 C CNN
-F 3 "" H 3420 6830 50  0001 C CNN
-	1    3420 6830
+P 3550 6940
+F 0 "L2" V 3600 6940 50  0000 L CNN
+F 1 "100µ" V 3500 6840 50  0000 L CNN
+F 2 "Inductor_SMD:L_1206_3216Metric" H 3550 6940 50  0001 C CNN
+F 3 "" H 3550 6940 50  0001 C CNN
+	1    3550 6940
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:L_Small L3
 U 1 1 5C619D6A
-P 3410 6650
-F 0 "L3" V 3460 6650 50  0000 L CNN
-F 1 "100µ" V 3360 6550 50  0000 L CNN
-F 2 "Inductor_SMD:L_1206_3216Metric" H 3410 6650 50  0001 C CNN
-F 3 "" H 3410 6650 50  0001 C CNN
-	1    3410 6650
+P 3540 6760
+F 0 "L3" V 3590 6760 50  0000 L CNN
+F 1 "100µ" V 3490 6660 50  0000 L CNN
+F 2 "Inductor_SMD:L_1206_3216Metric" H 3540 6760 50  0001 C CNN
+F 3 "" H 3540 6760 50  0001 C CNN
+	1    3540 6760
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1223,42 +1223,35 @@ Wire Wire Line
 Wire Wire Line
 	9400 3810 9400 4010
 Wire Wire Line
-	9300 3810 9400 3810
+	3640 6760 3900 6760
 Wire Wire Line
-	9300 3810 9300 4010
+	3900 6760 3900 7010
 Wire Wire Line
-	3510 6650 3900 6650
+	3150 7210 3150 7260
 Wire Wire Line
-	3900 6650 3900 6950
+	3150 7260 3690 7260
 Wire Wire Line
-	3150 7150 3150 7200
-Wire Wire Line
-	3150 7200 3650 7200
-Wire Wire Line
-	3650 7200 3650 7150
+	3690 7260 3690 7210
 $Comp
 L power:GND #PWR0106
 U 1 1 5C6DF12D
-P 3150 7250
-F 0 "#PWR0106" H 3150 7000 50  0001 C CNN
-F 1 "GND" H 3155 7077 50  0000 C CNN
-F 2 "" H 3150 7250 50  0001 C CNN
-F 3 "" H 3150 7250 50  0001 C CNN
-	1    3150 7250
+P 3150 7310
+F 0 "#PWR0106" H 3150 7060 50  0001 C CNN
+F 1 "GND" H 3155 7137 50  0000 C CNN
+F 2 "" H 3150 7310 50  0001 C CNN
+F 3 "" H 3150 7310 50  0001 C CNN
+	1    3150 7310
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 7250 3150 7200
-Connection ~ 3150 7200
+	3150 7310 3150 7260
+Connection ~ 3150 7260
 Wire Wire Line
-	3310 6650 3150 6650
+	3690 7260 3900 7260
 Wire Wire Line
-	3650 7200 3900 7200
-Wire Wire Line
-	3900 7200 3900 7150
-Connection ~ 3650 7200
-Connection ~ 3150 6650
-Connection ~ 3900 6650
+	3900 7260 3900 7210
+Connection ~ 3690 7260
+Connection ~ 3900 6760
 Text GLabel 630  6140 1    50   Input ~ 0
 +5V
 Wire Wire Line
@@ -1267,20 +1260,16 @@ Text GLabel 2480 6140 1    50   Input ~ 0
 -5V
 Wire Wire Line
 	2480 6140 2480 6240
-Text GLabel 3150 6550 1    50   Input ~ 0
+Text GLabel 3060 6830 0    50   Input ~ 0
 +5V
-Wire Wire Line
-	3150 6550 3150 6650
-Text GLabel 3990 6830 2    50   Input ~ 0
+Text GLabel 3990 6940 2    50   Input ~ 0
 +5VA
-Text GLabel 3980 6650 2    50   Input ~ 0
+Text GLabel 3980 6760 2    50   Input ~ 0
 +5VC
 Wire Wire Line
-	3980 6650 3900 6650
-Text GLabel 9400 3710 1    50   Input ~ 0
+	3980 6760 3900 6760
+Text GLabel 9440 3530 2    50   Input ~ 0
 +5V
-Wire Wire Line
-	9400 3710 9400 3810
 Wire Wire Line
 	7800 3810 7700 3810
 Wire Wire Line
@@ -1684,19 +1673,12 @@ Wire Wire Line
 	6780 7260 6780 7030
 Connection ~ 6780 7030
 Wire Wire Line
-	3150 6650 3150 6830
+	3650 6940 3690 6940
 Wire Wire Line
-	3520 6830 3650 6830
+	3690 6940 3690 7010
+Connection ~ 3690 6940
 Wire Wire Line
-	3320 6830 3150 6830
-Connection ~ 3150 6830
-Wire Wire Line
-	3150 6830 3150 6950
-Wire Wire Line
-	3650 6830 3650 6950
-Connection ~ 3650 6830
-Wire Wire Line
-	3650 6830 3990 6830
+	3690 6940 3990 6940
 Text GLabel 1660 5080 0    50   Input ~ 0
 -2.5V
 Wire Wire Line
@@ -2354,7 +2336,6 @@ Text Label 10390 5270 0    50   ~ 0
 A15
 NoConn ~ 10590 6270
 NoConn ~ 10590 6170
-NoConn ~ 10590 3670
 $Comp
 L Amplifier_Operational:TL062 U1
 U 3 1 5C833BB5
@@ -2381,6 +2362,83 @@ Text Notes 7380 7500 0    50   ~ 0
 Game Boy Oscilloscope in KiCAD
 Text Notes 8140 7640 0    50   ~ 0
 04/03/2019
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 5C86EAD3
+P 9050 3770
+F 0 "JP1" V 9050 3838 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 9005 3838 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 9050 3770 50  0001 C CNN
+F 3 "~" H 9050 3770 50  0001 C CNN
+	1    9050 3770
+	0    -1   -1   0   
+$EndComp
+Entry Wire Line
+	8450 4140 8550 4040
+Wire Wire Line
+	9440 3530 9400 3530
+Wire Wire Line
+	9400 3530 9400 3810
+Wire Wire Line
+	9400 3530 9050 3530
+Wire Wire Line
+	9050 3530 9050 3570
+Connection ~ 9400 3530
+Wire Wire Line
+	9200 3770 9300 3770
+Wire Wire Line
+	9300 3770 9300 4010
+Text Label 8600 4040 0    50   ~ 0
+VPP
+Entry Wire Line
+	10150 3770 10250 3670
+Wire Wire Line
+	10250 3670 10590 3670
+Text Label 10370 3670 0    50   ~ 0
+VPP
+Wire Wire Line
+	8550 4040 9050 4040
+Wire Wire Line
+	9050 3970 9050 4040
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5CAD1655
+P 9900 3110
+F 0 "JP2" V 9900 3178 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 9945 3178 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9900 3110 50  0001 C CNN
+F 3 "~" H 9900 3110 50  0001 C CNN
+	1    9900 3110
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 6830 3380 6830
+Wire Wire Line
+	3380 6830 3380 6760
+Wire Wire Line
+	3380 6760 3440 6760
+Wire Wire Line
+	3380 6830 3380 6940
+Wire Wire Line
+	3380 6940 3450 6940
+Connection ~ 3380 6830
+Wire Wire Line
+	3150 6830 3150 7010
+Wire Wire Line
+	3150 6830 3060 6830
+Connection ~ 3150 6830
+Text GLabel 9850 3290 0    50   Input ~ 0
++5V
+Wire Wire Line
+	9850 3290 9900 3290
+Wire Wire Line
+	9900 3290 9900 3260
+Text GLabel 9860 2920 0    50   Input ~ 0
++5V
+Wire Wire Line
+	9860 2920 9900 2920
+Wire Wire Line
+	9900 2920 9900 2960
 Wire Bus Line
 	5370 2670 5370 3310
 Wire Bus Line
@@ -2388,9 +2446,9 @@ Wire Bus Line
 Wire Bus Line
 	9200 1250 9200 3310
 Wire Bus Line
-	7200 1560 7200 3310
-Wire Bus Line
 	8450 3310 8450 6460
+Wire Bus Line
+	7200 1560 7200 3310
 Wire Bus Line
 	10150 3340 10150 6460
 $EndSCHEMATC
