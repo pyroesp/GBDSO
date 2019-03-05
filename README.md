@@ -49,6 +49,30 @@ Total Components: 70
 <b>NOTE:</b>  
 21/02/2019: Looks like I forgot to change the potentiometer footprint. The one I selected in the BOM list looks to be smaller than the current footprint. I'm hoping the pads are big enough because the PCBs have already been made.
 
+## Programming the AT27C256R
+
+05/03/2019: I've added two jumpers to the PCB so that the AT27C256R can be programmed from the cartridge.  
+The first jumper JP1 selects either 5V to pin 2 (VPP) of the EPROM and VPP from the unused 5th edge connector.  
+<img src="./programming-JP1.png">
+
+The second jumper JP2 cuts the power going to the rest of the board.  
+While in programming mode, the EPROM needs 6.5V to VCC and I'd rather not have it power to the rest of the board.  
+<img src="./programming-JP2.png">
+
+
+The EPROM should be able to be programmed through the edge connector with either a homemade programmer or an adapter board for an existing Universal Programmer (like the TL866 or other).  
+Connections are as follows:  
+|       Bus       |   GB Edge Connector   |   AT27C256R EPROM   |
+|-----------------|-----------------------|---------------------|
+|     Address     |        A0 - A14       |       A0 - A14      |
+|      Data       |        D0 - D7        |       D0 - D7       |
+|   Chip Enable   |          A15          |         /CE         |
+|  Output Enable  |          /RD          |         /OE         |
+|       Vcc       |          Vcc          |         Vcc         |
+|       Vpp       |          Vpp          |         Vpp         |
+
+<img src="./schematic-eprom.png">
+
 ## Original GBDSO
 
 - Pictures courtesy of Tauwasser on the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.
