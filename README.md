@@ -39,10 +39,12 @@ Total Components: 70
 
 ## Schematic
 
-<img src="./schematic.png">
+<img src="./schematic-1.png">
+<img src="./schematic-2.png">
 
 ## PCB
 
+<img src="./pcb.png"> 
 <img src="./pcb-front.png">  
 <img src="./pcb-back.png">
 
@@ -73,6 +75,17 @@ Connections are as follows:
 |       Vpp       |          Vpp          |         Vpp         | 
 
 <img src="./schematic-eprom.png">
+
+### GBDSO EPROM to PDIP28
+
+06/03/2019: I've added an adapter board to go from the EPROM on the GBDSO cart (PLCC32) to a PDIP28.  
+See the datasheet of the EPROM for the connections.  
+
+Any decent Universal Programmer should be able to program this now.  
+
+You can see the adapter board on the 3D rendered board above.  
+
+Note: Not yet tested !  
 
 ## Original GBDSO
 
