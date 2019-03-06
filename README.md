@@ -85,6 +85,9 @@ Any decent Universal Programmer should be able to program this now.
 
 You can see the adapter board on the 3D rendered board above.  
 
+The footprint for the GameBoy connector is the DS Lite footprint made by Gekkio and is available here: <a href="https://github.com/Gekkio/gekkio-kicad-libs">gekkio-kicad-libs</a>  
+Many thanks to Gekkio for the footprint.
+
 Note: Not yet tested !  
 
 ## Original GBDSO
