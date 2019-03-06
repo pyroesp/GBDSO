@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name GBDSO-rescue)(type Legacy)(uri ${KIPRJMOD}/GBDSO-rescue.lib)(options "")(descr "")(disabled))
   (lib (name 74HC138D)(type Legacy)(uri C:/Users/nicol/Documents/Schematic/GBDSO/74HC138D.lib)(options "")(descr ""))
   (lib (name 74HC175D)(type Legacy)(uri ${KIPRJMOD}/74HC175D.lib)(options "")(descr ""))
   (lib (name AT27C256R)(type Legacy)(uri ${KIPRJMOD}/AT27C256R.lib)(options "")(descr ""))
