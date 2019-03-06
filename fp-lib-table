@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name MJ-3523-SMT-TR)(type KiCad)(uri ${KIPRJMOD}/MJ-3523-SMT-TR.pretty)(options "")(descr ""))
   (lib (name GB_EdgeConnector)(type KiCad)(uri ${KIPRJMOD}/GB_EdgeConnector.pretty)(options "")(descr ""))
-  (lib (name Gekkio_Connector_PCBEdge)(type KiCad)(uri ${KIPRJMOD}/gekkio-kicad-libs/Gekkio_Connector_PCBEdge.pretty)(options "")(descr ""))
+  (lib (name Game_Boy_Cartridge_Slot_Xunbeifang_GNI172)(type KiCad)(uri ${KIPRJMOD}/Game_Boy_Cartridge_Slot_Xunbeifang_GNI172.pretty)(options "")(descr ""))
 )

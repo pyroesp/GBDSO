@@ -216,7 +216,7 @@ AR Path="/5C8274B5/5C85FEE1" Ref="J?"  Part="1"
 AR Path="/5CA2A475/5C85FEE1" Ref="J4"  Part="1" 
 F 0 "J4" H 6710 5210 50  0000 L CNN
 F 1 "GameBoy Cartridge Connector" V 6880 3330 50  0000 L CNN
-F 2 "Gekkio_Connector_PCBEdge:GameBoy_Cartridge_DSLite_1x32_P1.50mm_Socket_Horizontal" H 6740 3600 50  0001 C CNN
+F 2 "Game_Boy_Cartridge_Slot_Xunbeifang_GNI172:Game_Boy_Cartridge_Slot_Xunbeifang_GNI172" H 6740 3600 50  0001 C CNN
 F 3 "~" H 6740 3600 50  0001 C CNN
 	1    6740 3600
 	1    0    0    -1  

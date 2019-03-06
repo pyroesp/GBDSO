@@ -76,7 +76,7 @@ Connections are as follows:
 
 <img src="./schematic-eprom.png">
 
-### GBDSO EPROM to PDIP28
+## GBDSO EPROM to PDIP28
 
 06/03/2019: I've added an adapter board to go from the EPROM on the GBDSO cart (PLCC32) to a PDIP28.  
 See the datasheet of the EPROM for the connections.  
@@ -85,14 +85,14 @@ Any decent Universal Programmer should be able to program this now.
 
 You can see the adapter board on the 3D rendered board above.  
 
-The footprint for the GameBoy connector is the DS Lite footprint made by Gekkio and is available here: <a href="https://github.com/Gekkio/gekkio-kicad-libs">gekkio-kicad-libs</a>  
-Many thanks to Gekkio for the footprint.
+The GameBoy connector uses the Xunbeifang GNI172 footprint made by **obskyr** from the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.  
+You can find other GameBoy connectors made by **Gekkio** here: <a href="https://github.com/Gekkio/gekkio-kicad-libs">gekkio-kicad-libs</a>.  
 
 Note: Not yet tested !  
 
 ## Original GBDSO
 
-- Pictures courtesy of Tauwasser on the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.
+Original GBDSO pictures from november 2000 courtesy of **Tauwasser** on the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.
 
 ## TODO
 

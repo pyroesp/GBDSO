@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\nicol\Documents\Schematic\GBDSO\GBDSO.sch)
-    (date "06/03/2019 17:35:57")
+    (date "06/03/2019 19:03:44")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -491,7 +491,7 @@
       (tstamp 5CA59C57))
     (comp (ref J4)
       (value "GameBoy Cartridge Connector")
-      (footprint Gekkio_Connector_PCBEdge:GameBoy_Cartridge_DSLite_1x32_P1.50mm_Socket_Horizontal)
+      (footprint Game_Boy_Cartridge_Slot_Xunbeifang_GNI172:Game_Boy_Cartridge_Slot_Xunbeifang_GNI172)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x32) (description "Generic connector, single row, 01x32, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names "/GBDSO EPROM Adapter Board/") (tstamps /5CA2A475/))
