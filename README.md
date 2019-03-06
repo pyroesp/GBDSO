@@ -88,6 +88,8 @@ You can see the adapter board on the 3D rendered board above.
 The GameBoy connector uses the Xunbeifang GNI172 footprint made by **obskyr** from the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.  
 You can find other GameBoy connectors made by **Gekkio** here: <a href="https://github.com/Gekkio/gekkio-kicad-libs">gekkio-kicad-libs</a>.  
 
+The Xunbeifang GNI172 can be found on <a href="https://www.aliexpress.com/item/For-Nintendo-DS-NDSL-GBA-Game-Cartridge-Card-Reader-Slot-Repair-Part/32679592016.html">aliexpress</a>.
+
 Note: Not yet tested !  
 
 ## Original GBDSO
