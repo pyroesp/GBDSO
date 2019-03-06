@@ -1,3 +1,8 @@
+**THIS HAS NOT BEEN TESTED YET**  
+I'm still waiting for the PCB to arrive.  
+When it's working, I'll update the README file with pictures of the board and stuff.
+
+
 # GBDSO
 
 GBDSO article : http://www.radanpro.com/Radan2400/TestShematics/GameBoyScope.pdf  
