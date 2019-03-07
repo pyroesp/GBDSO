@@ -10,29 +10,27 @@ GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz
 
 ## Schematic
 
-<img src="./schematic-1.png">
-<img src="./schematic-2.png">
+<img src="./pictures/schematic-1.png">
+<img src="./pictures/schematic-2.png">
 
 ## PCB
 
-<img src="./pcb.png"> 
-<img src="./pcb-front.png">  
-<img src="./pcb-back.png">
-
-NOTE: Looks like I forgot to change the potentiometer footprint. The one I selected in the BOM list looks to be smaller than the current footprint. I'm hoping the pads are big enough because the PCBs have already been made.  
+<img src="./pictures/pcb.png"> 
+<img src="./pictures/pcb-front.png">  
+<img src="./pictures/pcb-back.png"> 
 
 06/03/2019: The very first version of the PCB came in the mail today. I just need to find a way to program the EPROM and then I'll start soldering everything on the board.  
-<img src="./pcb-v0.png"> 
+<img src="./pictures/pcb-v0.jpeg"> 
 
 ## Programming the AT27C256R
 
 05/03/2019: I've added two jumpers to the PCB so that the AT27C256R can be programmed from the cartridge.  
 The first jumper JP1 selects either 5V to pin 2 (VPP) of the EPROM and VPP from the unused 5th edge connector.  
-<img src="./programming-JP1.png">
+<img src="./pictures/programming-JP1.png">
 
 The second jumper JP2 cuts the power going to the rest of the board.  
 While in programming mode, the EPROM needs 6.5V to VCC and I'd rather not have it power to the rest of the board.  
-<img src="./programming-JP2.png">
+<img src="./pictures/programming-JP2.png">
 
 
 The EPROM should be able to be programmed through the edge connector with either a homemade programmer or an adapter board for an existing Universal Programmer (like the TL866 or other).  
@@ -47,7 +45,7 @@ Connections are as follows:
 |       Vcc       |          Vcc          |         Vcc         | 
 |       Vpp       |          Vpp          |         Vpp         | 
 
-<img src="./schematic-eprom.png">
+<img src="./pictures/schematic-eprom.png">
 
 ## GBDSO EPROM to PDIP28
 
@@ -68,6 +66,9 @@ Note: Not yet tested !
 ## Original GBDSO
 
 Original GBDSO pictures from November 2000 courtesy of **Tauwasser** on the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.
+
+<img src="./pictures/original/GBDSO_F.jpg">
+<img src="./pictures/original/GBDSO_Shell_Side.jpg">
 
 ## BOM list
 
@@ -105,5 +106,6 @@ Total Components: 70
 
 ## TODO
 
-- Change potentiometer footprint to match BOM list component  
+- ~~Change potentiometer footprint to match BOM list component~~
+Potentiometer fits the footprint, so no need to change the footprint.  
 - Change orientation of potentiometer on PCB so both are the same
