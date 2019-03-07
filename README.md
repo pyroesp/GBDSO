@@ -6,7 +6,7 @@ When it's working, I'll update the README file with pictures of the board and st
 # GBDSO
 
 GBDSO article : http://www.radanpro.com/Radan2400/TestShematics/GameBoyScope.pdf  
-GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz_mAsAOrmmyRrHJMRS4_JKM7iif-KBE/edit#gid=0
+GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz_mAsAOrmmyRrHJMRS4_JKM7iif-KBE/edit#gid=0  
 
 ## Schematic
 
@@ -19,8 +19,10 @@ GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz
 <img src="./pcb-front.png">  
 <img src="./pcb-back.png">
 
-<b>NOTE:</b>  
-21/02/2019: Looks like I forgot to change the potentiometer footprint. The one I selected in the BOM list looks to be smaller than the current footprint. I'm hoping the pads are big enough because the PCBs have already been made.
+NOTE: Looks like I forgot to change the potentiometer footprint. The one I selected in the BOM list looks to be smaller than the current footprint. I'm hoping the pads are big enough because the PCBs have already been made.  
+
+06/03/2019: The very first version of the PCB came in the mail today. I just need to find a way to program the EPROM and then I'll start soldering everything on the board.  
+<img src="./pcb-v0.png"> 
 
 ## Programming the AT27C256R
 
@@ -65,7 +67,7 @@ Note: Not yet tested !
 
 ## Original GBDSO
 
-Original GBDSO pictures from november 2000 courtesy of **Tauwasser** on the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.
+Original GBDSO pictures from November 2000 courtesy of **Tauwasser** on the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.
 
 ## BOM list
 
