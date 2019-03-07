@@ -106,6 +106,6 @@ Total Components: 70
 
 ## TODO
 
-- ~~Change potentiometer footprint to match BOM list component~~
-Potentiometer fits the footprint, so no need to change the footprint.  
+- ~~Change potentiometer footprint to match BOM list component~~  
+The potentiometer I bought fits the footprint, so no need to change the footprint.  
 - Change orientation of potentiometer on PCB so both are the same
