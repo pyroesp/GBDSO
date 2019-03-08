@@ -24,7 +24,6 @@ See [LOG.md](https://github.com/pyroesp/GBDSO/blob/master/LOG.md)
 ## Official game cart dimensions
 
 Below you'll find the dimensions for the PCB of an official game (Pokémon Yellow JAP).  
-Thickness of the board is 1mm, not shown in drawing.  
 
 <img src="./freecad/cartidge dimensions.svg"> 
 
