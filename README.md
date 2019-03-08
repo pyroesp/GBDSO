@@ -20,7 +20,7 @@ GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz
 <img src="./pictures/pcb-back.png"> 
 
 06/03/2019: The very first version of the PCB came in the mail today.  
-<img src="./pictures/pcb-v0.jpeg">  
+<img src="./pictures/pcb-v0.png">  
 
 ## Official game cart dimensions
 
