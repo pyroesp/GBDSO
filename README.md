@@ -19,8 +19,20 @@ GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz
 <img src="./pictures/pcb-front.png">  
 <img src="./pictures/pcb-back.png"> 
 
-06/03/2019: The very first version of the PCB came in the mail today. I just need to find a way to program the EPROM and then I'll start soldering everything on the board.  
-<img src="./pictures/pcb-v0.jpeg"> 
+06/03/2019: The very first version of the PCB came in the mail today.  
+<img src="./pictures/pcb-v0.jpeg">  
+
+## Official game cart dimensions
+
+07/03/2019: The first version of the PCB doesn't fit in a game shell. I forgot the notch at the top right corner.  
+The PCB is also thicker (1.6mm) than an official game. Below you'll find the dimensions for the PCB of an official game (Pokémon Yellow JAP).
+
+Cart width : 51mm  
+Cart height : 61mm  
+Edge connector width : 49mm  
+Notch width : 5mm  
+Notch height : 3mm  
+Board thickness : 1mm
 
 ## Programming the AT27C256R
 
