@@ -1,12 +1,14 @@
 **THIS HAS NOT BEEN TESTED YET**  
-I'm still waiting for the PCB to arrive.  
-When it's working, I'll update the README file with pictures of the board and stuff.
 
 
 # GBDSO
 
 GBDSO article : http://www.radanpro.com/Radan2400/TestShematics/GameBoyScope.pdf  
 GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz_mAsAOrmmyRrHJMRS4_JKM7iif-KBE/edit#gid=0  
+
+# Log file
+
+See [LOG.md](https://github.com/pyroesp/GBDSO/blob/master/LOG.md)
 
 ## Schematic
 
@@ -17,50 +19,29 @@ GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz
 
 <img src="./pictures/pcb.png"> 
 <img src="./pictures/pcb-front.png">  
-<img src="./pictures/pcb-back.png"> 
-
-06/03/2019: The very first version of the PCB came in the mail today.  
-<img src="./pictures/pcb-v0.png">  
+<img src="./pictures/pcb-back.png">   
 
 ## Official game cart dimensions
 
-07/03/2019: The first version of the PCB doesn't fit in a game shell. I forgot the notch at the top right corner.  
-The PCB is also thicker (1.6mm) than an official game. Below you'll find the dimensions for the PCB of an official game (Pokémon Yellow JAP).
+Below you'll find the dimensions for the PCB of an official game (Pokémon Yellow JAP).  
+Thickness of the board is 1mm, not shown in drawing.  
 
 <img src="./freecad/cartidge dimensions.svg"> 
 
 ## Programming the AT27C256R
 
-05/03/2019: I've added two jumpers to the PCB so that the AT27C256R can be programmed from the cartridge.  
-The first jumper JP1 selects either 5V to pin 2 (VPP) of the EPROM and VPP from the unused 5th edge connector.  
+The first jumper JP1 selects either 5V to pin 2 of the EPROM (VPP) and VPP from the unused 5th edge connector.  
 <img src="./pictures/programming-JP1.png">
 
 The second jumper JP2 cuts the power going to the rest of the board.  
 While in programming mode, the EPROM needs 6.5V to VCC and I'd rather not have it power to the rest of the board.  
 <img src="./pictures/programming-JP2.png">
 
+To program the EPROM, leave JP2 open and set JP1 so that the edge connector VPP is connected to the EPROM VPP.
 
-The EPROM should be able to be programmed through the edge connector with either a homemade programmer or an adapter board for an existing Universal Programmer (like the TL866 or other).  
-Connections are as follows:  
+## GBDSO EPROM to PDIP28  
 
-|       Bus       |   GB Edge Connector   |   AT27C256R EPROM   | 
-|-----------------|-----------------------|---------------------| 
-|     Address     |        A0 - A14       |       A0 - A14      | 
-|      Data       |        D0 - D7        |       D0 - D7       | 
-|   Chip Enable   |          A15          |         /CE         | 
-|  Output Enable  |          /RD          |         /OE         | 
-|       Vcc       |          Vcc          |         Vcc         | 
-|       Vpp       |          Vpp          |         Vpp         | 
-
-<img src="./pictures/schematic-eprom.png">
-
-## GBDSO EPROM to PDIP28
-
-06/03/2019: I've added an adapter board to go from the EPROM on the GBDSO cart (PLCC32) to a PDIP28.  
-See the datasheet of the EPROM for the connections.  
-
-Any decent Universal Programmer should be able to program this now.  
-
+Any decent Universal Programmer should be able to program the EPROM on the cart.  
 You can see the adapter board on the 3D rendered board above.  
 
 The GameBoy connector uses the Xunbeifang GNI172 footprint made by **obskyr** from the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.  
