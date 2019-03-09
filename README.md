@@ -36,7 +36,8 @@ The second jumper JP2 cuts the power going to the rest of the board.
 While in programming mode, the EPROM needs 6.5V to VCC and I'd rather not have it power to the rest of the board.  
 <img src="./pictures/programming-JP2.png">
 
-To program the EPROM, leave JP2 open and set JP1 so that the edge connector VPP is connected to the EPROM VPP.
+To program the EPROM, leave JP2 open and set JP1 so that the edge connector VPP is connected to the EPROM VPP.  
+When programming is done, bridge JP2 and set JP1 so that 5V go to the EPROM VPP.  
 
 ## GBDSO EPROM to PDIP28  
 
