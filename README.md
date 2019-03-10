@@ -52,8 +52,8 @@ When programming is done, bridge JP2 and set JP1 so that 5V go to the EPROM VPP.
 Any decent Universal Programmer should be able to program the EPROM on the cart.  
 You can see the adapter board on the 3D rendered board above.  
 
-The GameBoy connector uses the Xunbeifang GNI172 footprint made by **obskyr** from the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.  
-You can find other GameBoy connectors made by **Gekkio** here: <a href="https://github.com/Gekkio/gekkio-kicad-libs">gekkio-kicad-libs</a>.  
+The Game Boy connector uses the Xunbeifang GNI172 footprint made by **obskyr** from the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.  
+You can find other Game Boy connectors made by **Gekkio** here: <a href="https://github.com/Gekkio/gekkio-kicad-libs">gekkio-kicad-libs</a>.  
 
 The Xunbeifang GNI172 can be found on <a href="https://www.aliexpress.com/item/For-Nintendo-DS-NDSL-GBA-Game-Cartridge-Card-Reader-Slot-Repair-Part/32679592016.html">aliexpress</a>.
 
