@@ -33,7 +33,7 @@ See [LOG.md](https://github.com/pyroesp/GBDSO/blob/master/LOG.md)
 
 Below you'll find the dimensions for the PCB of an official game (Pokémon Yellow JAP).  
 
-<img src="./freecad/cartridge dimensions.svg"> 
+<img src="./freecad/pcb dimensions/cartridge dimensions.svg"> 
 
 ## Programming the AT27C256R
 
