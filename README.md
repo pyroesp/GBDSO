@@ -111,4 +111,5 @@ Total Components: 70
 
 - ~~Change potentiometer footprint to match BOM list component~~  
 The potentiometer I bought fits the footprint, so no need to change the footprint.  
-- Change orientation of potentiometer on PCB so both are the same
+- ~~Change orientation of potentiometer on PCB so both are the same~~  
+Orientation of pots fixed.  
