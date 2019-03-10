@@ -6,6 +6,14 @@
 GBDSO article : http://www.radanpro.com/Radan2400/TestShematics/GameBoyScope.pdf  
 GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz_mAsAOrmmyRrHJMRS4_JKM7iif-KBE/edit#gid=0  
 
+## Max Voltage Ratings
+
+- +/- 16V on 1:1  
+- +/- 50V on 10:1  
+
+Do **NOT** exceed the max voltage ratings or you risk damaging the cartridge and the Game Boy.  
+I'm not responsible if you fuck up!  
+
 ## Log file
 
 See [LOG.md](https://github.com/pyroesp/GBDSO/blob/master/LOG.md)
@@ -63,6 +71,7 @@ Original GBDSO pictures from November 2000 courtesy of **Tauwasser** on the <a h
 
 <img src="./pictures/original/GBDSO_F.jpg">
 <img src="./pictures/original/GBDSO_Shell_Side.jpg">
+<img src="./pictures/original/GBDSO_Warning.jpg">
 
 ## BOM list
 
