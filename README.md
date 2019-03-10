@@ -25,7 +25,7 @@ See [LOG.md](https://github.com/pyroesp/GBDSO/blob/master/LOG.md)
 
 Below you'll find the dimensions for the PCB of an official game (Pokémon Yellow JAP).  
 
-<img src="./freecad/cartidge dimensions.svg"> 
+<img src="./freecad/cartridge dimensions.svg"> 
 
 ## Programming the AT27C256R
 
@@ -48,6 +48,12 @@ The GameBoy connector uses the Xunbeifang GNI172 footprint made by **obskyr** fr
 You can find other GameBoy connectors made by **Gekkio** here: <a href="https://github.com/Gekkio/gekkio-kicad-libs">gekkio-kicad-libs</a>.  
 
 The Xunbeifang GNI172 can be found on <a href="https://www.aliexpress.com/item/For-Nintendo-DS-NDSL-GBA-Game-Cartridge-Card-Reader-Slot-Repair-Part/32679592016.html">aliexpress</a>.
+
+<img src="./pictures/top - out.png">  
+<img src="./pictures/top - in.png">  
+<img src="./pictures/top - JP1.png">  
+<img src="./pictures/bottom - JP2.png">  
+<img src="./pictures/side - pinheader.png">  
 
 Note: Not yet tested !  
 
