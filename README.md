@@ -59,8 +59,12 @@ The Xunbeifang GNI172 can be found on <a href="https://www.aliexpress.com/item/F
 
 <img src="./pictures/top - out.png">  
 <img src="./pictures/top - in.png">  
+
+To program the EPROM, leave JP1 open and close JP2 as shown below.
 <img src="./pictures/top - JP1.png">  
 <img src="./pictures/bottom - JP2.png">  
+
+Plug the adapter board into q Universal Programmer and set the target device to AT27C256R.
 <img src="./pictures/side - pinheader.png">  
 
 Note: Not yet tested !  
@@ -111,5 +115,7 @@ Total Components: 70
 
 - ~~Change potentiometer footprint to match BOM list component~~  
 The potentiometer I bought fits the footprint, so no need to change the footprint.  
+However, the pot has some metalic piece at the bottom, so you can't have exposed vias beneath it.  
+I've moved the vias so they wouldn't interfere with the pot.  
 - ~~Change orientation of potentiometer on PCB so both are the same~~  
 Orientation of pots fixed.  
