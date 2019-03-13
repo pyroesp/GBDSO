@@ -1,7 +1,7 @@
 # LOG
 
-##21/02/2019: 
-Looks like I forgot to change the potentiometer footprint. The one I selected in the BOM list looks to be smaller than the current footprint. I'm hoping the pads are big enough because I've already ordered the PCB!
+## 21/02/2019: 
+Looks like I forgot to change the potentiometer footprint. The one I selected in the BOM list looks to be smaller than the current footprint. I'm hoping the pads are big enough because I've already ordered the PCB!  
 
 ## 05/03/2019: 
 I've added two jumpers to the PCB so that the AT27C256R can be programmed from the cartridge.  
