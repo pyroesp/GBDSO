@@ -23,3 +23,4 @@ I printed the shape to the console and it did circle, rectangle, etc. fine but t
 By bypassing the make_shape function when a shape is custom, using a simple if shape <> "custom":, I could then load everything without errors in FreeCAD.  
 I found the custom shapes by comparing the FreeCAD PCB and the KiCAD PCB. There were 6 custom pads in the PCB. They're used in the footprint for the audio jack.  
 I changed those footprints from custom to rectangle and could load the PCB and it's tracks without a hitch.  
+I had submitted an issue to <a href="https://github.com/easyw/kicadStepUpMod">easyw</a>, but it seems like the problem came from the pads I had used in my footprints.
