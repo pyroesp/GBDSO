@@ -27,3 +27,23 @@ By bypassing the make_shape function when a shape is custom, using a simple if s
 I found the custom shapes by comparing the FreeCAD PCB and the KiCAD PCB. There were 6 custom pads in the PCB. They're used in the footprint for the audio jack.  
 I changed those footprints from custom to rectangle and could load the PCB and it's tracks without a hitch.  
 I had submitted an issue to <a href="https://github.com/easyw/kicadStepUpMod">easyw</a>, but it seems like the problem came from the pads I had used in my footprints.
+
+## 20/04/2019
+A few weeks ago I managed to buy the last GBDSO EPROM from Elektor which is pretty cool!  
+After getting it I read it with a simple arduino code, but I couldn't get it to emulate correctly. I suspect a bad EPROM...
+
+Got the boards last week and started to solder everything on it.  
+Looks like I forgot to add the ADC and the 74HC138 in the digikey BOM so I bought them from the cheapest EU source that had both chips that I could find.  
+The digital pot is a wide SOIC16 and I used a normal SOIC16 footprint. So I had to bend the pins inwards like a QFP, so that I could place it on the pads.  
+I also saw that pin 12 and 13 are swapped in the digital pot symbol... This has been fixd with a PR to kicad-symbols.  
+The ADC is a wide SSOP24 and I, of course, used a normal SSOP24 footprint. Again, I bent the pins like a QFP and reflow soldered it like that.  
+To maybe make it easier to use, I added header pins where the female audio jack connectors are. You can use those if you don't want to use audio jacks for your channels.  
+
+I opened and closed issues regarding the wrong footprint and stuff like that.  
+
+I finally finished it after lots of trouble getting the QFP to reflow solder. Whenever I tested the cart in a gameboy, I would consistently get the same bad Nintendo logo.  
+After talking to people in the gbdev discord, it looked like I had a problem with D7.  
+After further investigation, I couldn't find a broken connection from the edge connector D7 pin to the rest of the circuit...  
+Wich means that I probably toasted the chip while reflow soldering it.
+
+I still need to build an EPROM programmer, but that's for later.
