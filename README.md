@@ -1,4 +1,4 @@
-**THIS HAS NOT BEEN TESTED YET**  
+**THIS DOES NOT WORK YET**  
 
 
 # GBDSO
@@ -97,7 +97,7 @@ Original GBDSO pictures from November 2000 courtesy of **Tauwasser** on the <a h
 | L1, L2, L3                                           | 100µ                                     |           0.18 |      3 |        0.54 | https://www.digikey.be/product-detail/en/taiyo-yuden/LBM2016T101J/587-1817-1-ND/1465287                      |
 | D1, D2                                              | BAV199                                   |           0.17 |      2 |        0.34 | https://www.digikey.be/product-detail/en/diodes-incorporated/BAV199-7-F/BAV199-FDICT-ND/1033647              |
 | D3                                                 | ZR25D01 -> ZR40402F25TA                  |           0.61 |      1 |        0.61 | https://www.digikey.be/product-detail/en/diodes-incorporated/ZR40402F25TA/ZR40402F25TACT-ND/243209           |
-| IC1, IC3                                            | MC33182D -> TL062IDT                     |           0.43 |      2 |        0.86 | https://www.digikey.be/product-detail/en/stmicroelectronics/TL062IDT/497-6763-1-ND/1865381                   |
+| IC1, IC3                                            | MC33182D -> TL072CDT                     |           0.42 |      2 |        0.84 | https://www.digikey.com/product-detail/en/stmicroelectronics/TL072CDT/497-2200-1-ND/599107                   |
 | IC2                                                | DS1267S100 -> DS1267BS-100+              |           5.52 |      1 |        5.52 | https://www.digikey.be/product-detail/en/maxim-integrated/DS1267BS-100/DS1267BS-100-ND/5049982               |
 | IC4                                                | MAX114CAG                                |            6.9 |      1 |         6.9 | https://www.digikey.be/product-detail/en/maxim-integrated/MAX114CAG/MAX114CAG-ND/1428095                     |
 | IC5                                                | 74HC175D                                 |           0.41 |      1 |        0.41 | https://www.digikey.be/product-detail/en/texas-instruments/SN74HC175DR/296-14840-1-ND/562676                 |
@@ -109,14 +109,16 @@ Original GBDSO pictures from November 2000 courtesy of **Tauwasser** on the <a h
 | K1, K2                                              | 3.5mm stereo socket -> mono smd          |           0.88 |      2 |        1.76 | https://www.digikey.be/product-detail/en/cui-inc/MJ-3523-SMT-TR/CP-3523MJCT-ND/669691                        |
 
 
-Total Price: 31.33€<br>			
+Total Price: 31.31€<br>			
 Total Components: 70
 
 ## TODO
 
 - ~~Change potentiometer footprint to match BOM list component~~  
-The potentiometer I bought fits the footprint, so no need to change the footprint.  
+The potentiometer I bought fits the footprint, so I don't really need to change it.  
 However, the pot has some metalic piece at the bottom, so you can't have exposed vias beneath it.  
 I've moved the vias so they wouldn't interfere with the pot.  
+
+I'll take a look at the different POT footprints to see if I can find one that fits better to the one I'm using.  
 - ~~Change orientation of potentiometer on PCB so both are the same~~  
 Orientation of pots fixed.  

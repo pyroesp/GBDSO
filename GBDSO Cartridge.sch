@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:GBDSO-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,50 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Amplifier_Operational:TL062 U1
-U 1 1 5C828B36
-P 4610 1200
-F 0 "U1" H 4610 1400 50  0000 L CNN
-F 1 "TL062" H 4610 1000 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4610 1200 50  0001 C CNN
-F 3 "" H 4610 1200 50  0001 C CNN
-	1    4610 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:TL062 U1
-U 2 1 5C828B3D
-P 2580 1720
-F 0 "U1" H 2580 1920 50  0000 L CNN
-F 1 "TL062" H 2580 1520 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2580 1720 50  0001 C CNN
-F 3 "" H 2580 1720 50  0001 C CNN
-	2    2580 1720
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL062 U3
-U 1 1 5C828B44
-P 4570 4740
-F 0 "U3" H 4570 4940 50  0000 L CNN
-F 1 "TL062" H 4570 4540 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4570 4740 50  0001 C CNN
-F 3 "" H 4570 4740 50  0001 C CNN
-	1    4570 4740
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL062 U3
-U 2 1 5C828B4B
-P 2610 4160
-F 0 "U3" H 2610 4360 50  0000 L CNN
-F 1 "TL062" H 2610 3960 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2610 4160 50  0001 C CNN
-F 3 "" H 2610 4160 50  0001 C CNN
-	2    2610 4160
-	1    0    0    1   
-$EndComp
 $Comp
 L Potentiometer_Digital:DS1267_SOIC U2
 U 1 1 5C828B52
@@ -1804,7 +1759,7 @@ NoConn ~ 8000 1940
 NoConn ~ 7250 4900
 NoConn ~ 7250 4600
 NoConn ~ 7250 4500
-NoConn ~ 7250 4390
+NoConn ~ 7250 4400
 NoConn ~ 7250 4300
 NoConn ~ 7250 4200
 $Comp
@@ -2339,28 +2294,6 @@ A15
 NoConn ~ 10640 6190
 NoConn ~ 10640 6090
 $Comp
-L Amplifier_Operational:TL062 U1
-U 3 1 5C829067
-P 3440 1660
-F 0 "U1" H 3398 1706 50  0000 L CNN
-F 1 "TL062" H 3398 1615 50  0000 L CNN
-F 2 "" H 3440 1660 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl061.pdf" H 3440 1660 50  0001 C CNN
-	3    3440 1660
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:TL062 U3
-U 3 1 5C82906E
-P 3400 4240
-F 0 "U3" H 3358 4286 50  0000 L CNN
-F 1 "TL062" H 3358 4195 50  0000 L CNN
-F 2 "" H 3400 4240 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl061.pdf" H 3400 4240 50  0001 C CNN
-	3    3400 4240
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:SolderJumper_3_Open JP1
 U 1 1 5C829077
 P 9100 3760
@@ -2505,6 +2438,72 @@ Text Notes 890  1950 0    50   ~ 0
 CH B
 Text Notes 1020 4420 0    50   ~ 0
 CH A
+$Comp
+L Amplifier_Operational:TL072 U1
+U 1 1 5E8728C5
+P 4610 1200
+F 0 "U1" H 4610 1567 50  0000 C CNN
+F 1 "TL072" H 4610 1476 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4610 1200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4610 1200 50  0001 C CNN
+	1    4610 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 2 1 5E87600C
+P 2580 1720
+F 0 "U1" H 2690 1870 50  0000 C CNN
+F 1 "TL072" H 2670 1560 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2580 1720 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2580 1720 50  0001 C CNN
+	2    2580 1720
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 3 1 5E879A8F
+P 3440 1660
+F 0 "U1" H 3398 1706 50  0000 L CNN
+F 1 "TL072" H 3398 1615 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3440 1660 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3440 1660 50  0001 C CNN
+	3    3440 1660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U3
+U 1 1 5E87C68F
+P 4570 4740
+F 0 "U3" H 4680 4880 50  0000 C CNN
+F 1 "TL072" H 4630 4580 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4570 4740 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4570 4740 50  0001 C CNN
+	1    4570 4740
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U3
+U 2 1 5E8809F8
+P 2610 4160
+F 0 "U3" H 2740 4300 50  0000 C CNN
+F 1 "TL072" H 2680 4000 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2610 4160 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2610 4160 50  0001 C CNN
+	2    2610 4160
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U3
+U 3 1 5E882FE2
+P 3400 4240
+F 0 "U3" H 3358 4286 50  0000 L CNN
+F 1 "TL072" H 3358 4195 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 4240 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3400 4240 50  0001 C CNN
+	3    3400 4240
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	5420 2660 5420 3300
 Wire Bus Line
