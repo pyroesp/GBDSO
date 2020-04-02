@@ -3,7 +3,6 @@
   (lib (name 74HC175D)(type Legacy)(uri ${KIPRJMOD}/components/symbol/74HC175D.lib)(options "")(descr ""))
   (lib (name AT27C256R)(type Legacy)(uri ${KIPRJMOD}/components/symbol/AT27C256R.lib)(options "")(descr ""))
   (lib (name BAV199)(type Legacy)(uri ${KIPRJMOD}/components/symbol/BAV199.lib)(options "")(descr ""))
-  (lib (name GBDSO-cache)(type Legacy)(uri ${KIPRJMOD}/GBDSO-cache.lib)(options "")(descr ""))
   (lib (name MAX114CAG)(type Legacy)(uri ${KIPRJMOD}/components/symbol/MAX114CAG.lib)(options "")(descr ""))
   (lib (name MAX828EUK)(type Legacy)(uri ${KIPRJMOD}/components/symbol/MAX828EUK.lib)(options "")(descr ""))
   (lib (name MJ-3523-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/components/symbol/MJ-3523-SMT-TR.lib)(options "")(descr ""))
