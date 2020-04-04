@@ -960,11 +960,11 @@ Wire Wire Line
 	8250 4960 8400 4960
 Text Label 8300 4460 0    50   ~ 0
 A13
-Text Label 8300 4760 0    50   ~ 0
+Text Label 8310 4960 0    50   ~ 0
 A14
 Text Label 8300 4860 0    50   ~ 0
 ECLK
-Text Label 8300 4960 0    50   ~ 0
+Text Label 8300 4760 0    50   ~ 0
 A15
 Entry Wire Line
 	10100 4300 10200 4400
