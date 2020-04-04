@@ -1369,7 +1369,7 @@ Text GLabel 1790 920  0    50   Input ~ 0
 Wire Wire Line
 	1790 920  1840 920 
 Text GLabel 2270 920  2    50   Input ~ 0
-+5V
++5VA
 Wire Wire Line
 	2270 920  2220 920 
 Wire Wire Line
@@ -1494,7 +1494,7 @@ Text GLabel 1890 3310 0    50   Input ~ 0
 Wire Wire Line
 	1890 3310 1950 3310
 Text GLabel 2380 3310 2    50   Input ~ 0
-+5V
++5Va
 Wire Wire Line
 	2380 3310 2330 3310
 Wire Wire Line
