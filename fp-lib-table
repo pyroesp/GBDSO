@@ -2,4 +2,5 @@
   (lib (name MJ-3523-SMT-TR)(type KiCad)(uri ${KIPRJMOD}/components/footprint/MJ-3523-SMT-TR.pretty)(options "")(descr ""))
   (lib (name GB_EdgeConnector)(type KiCad)(uri ${KIPRJMOD}/components/footprint/GB_EdgeConnector.pretty)(options "")(descr ""))
   (lib (name Game_Boy_Cartridge_Slot_Xunbeifang_GNI172)(type KiCad)(uri ${KIPRJMOD}/components/footprint/Game_Boy_Cartridge_Slot_Xunbeifang_GNI172.pretty)(options "")(descr ""))
+  (lib (name PLCC32_HandSolder)(type KiCad)(uri ${KIPRJMOD}/components/footprint/PLCC32_HandSolder.pretty)(options "")(descr ""))
 )
