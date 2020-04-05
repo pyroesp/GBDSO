@@ -112,6 +112,25 @@ Original GBDSO pictures from November 2000 courtesy of **Tauwasser** on the <a h
 Total Price: 31.31€<br>			
 Total Components: 70
 
+## Replacement parts
+
+The input opamps MC33182D is not being sold anymore, at least not on digikey.  
+So looking around I thought the TL062 would be a nice replacement but the numbers weren't similar.  
+I've looked at the TL072 and this one looks pretty good, the only downside is that it isn't a low power opamp.  
+
+If we compare the current consumption from the TL072 and the MC33182D, the TL072 uses 5 times more current (1.4mA typ.) than the MC33182D (420µA).  
+
+Looking further into the MC33182D I found this old forum post talking about replacing it on a GBDSO : [edaboard forum](https://www.edaboard.com/showthread.php?40716-Need-alternative-for-MC33182D-(dual-opamp)-for-GBDSO&highlight=gbdso)  
+They talked about the TL082, LF412, TLE2082A and TLE2602. Someone used that last one as a replacement for the MC33182D, although digikey has it priced at around 2$ per unit...  
+
+Looking at the information page on TI's website, this is what they say:  
+> The TL206x devices are pin-compatible with other TI BiFETs; they can be used to double the bandwidth of TL06x and TL03x circuits, or to reduce power consumption of TL05x, TL07x, and TL08x circuits by nearly 90%.  
+
+That power reduction is crucial for long lasting batteries.  
+For now though, I'll try the TL062 I currently have and will try the TL072 on a later date.  
+I'll also try to find a suitable, pin-compatible, low power replacement opamp for the TL072.  
+
+
 ## TODO
 
 - ~~Change potentiometer footprint to match BOM list component~~  
