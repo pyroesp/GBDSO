@@ -13,22 +13,20 @@ GBDSO BOM list (2019/02) : https://docs.google.com/spreadsheets/d/1vu9Xc1Mw5STfz
 - +/- 50V on 10:1  
 
 Do **NOT** exceed the max voltage ratings or you risk damaging the cartridge and the Game Boy.  
-I'm not responsible if you fuck up!  
-
-## Log file
-
-See [LOG.md](https://github.com/pyroesp/GBDSO/blob/master/LOG.md)
+I'm not responsible if it blows up!  
 
 ## Schematic
 
 <img src="./pictures/schematic-1.png">
-<img src="./pictures/schematic-2.png">
 
 ## PCB
 
 <img src="./pictures/pcb.png"> 
 <img src="./pictures/pcb-front.png">  
 <img src="./pictures/pcb-back.png">   
+<img src="./pictures/pcb-v0.png">   
+<img src="./pictures/pcb-v1-front.jpg">   
+<img src="./pictures/pcb-v2.jpeg">   
 
 ## Official game cart dimensions
 
@@ -38,19 +36,19 @@ Below you'll find the dimensions for the PCB of an official game (Pokémon Yello
 
 ## Programming the AT27C256R
 
-The first jumper JP1 selects either 5V to pin 2 of the EPROM (VPP) and VPP from the unused 5th edge connector.  
+The first jumper JP1 selects either 5V to pin 2 of the PROM (VPP) and VPP from the unused 5th edge connector.  
 <img src="./pictures/programming-JP1.png">
 
 The second jumper JP2 cuts the power going to the rest of the board.  
-While in programming mode, the EPROM needs 6.5V to VCC and I'd rather not have it power to the rest of the board.  
+While in programming mode, the PROM needs 6.5V to VCC and I'd rather not have it power to the rest of the board.  
 <img src="./pictures/programming-JP2.png">
 
-To program the EPROM, leave JP2 open and set JP1 so that the edge connector VPP is connected to the EPROM VPP.  
-When programming is done, bridge JP2 and set JP1 so that 5V go to the EPROM VPP.  
+To program the PROM, leave JP2 open and set JP1 so that the edge connector VPP is connected to the PROM VPP.  
+When programming is done, bridge JP2 and set JP1 so that 5V go to the PROM VPP.  
 
-## GBDSO EPROM to PDIP28  
+## GBDSO PROM to PDIP28  
 
-Any decent Universal Programmer should be able to program the EPROM on the cart.  
+Any decent Universal Programmer should be able to program the PROM on the cart.  
 You can see the adapter board on the 3D rendered board above.  
 
 The Game Boy connector uses the Xunbeifang GNI172 footprint made by **obskyr** from the <a href="https://github.com/gbdev/awesome-gbdev">gbdev discord</a>.  
@@ -61,14 +59,14 @@ The Xunbeifang GNI172 can be found on <a href="https://www.aliexpress.com/item/F
 <img src="./pictures/top - out.png">  
 <img src="./pictures/top - in.png">  
 
-To program the EPROM, leave JP1 open and close JP2 as shown below.
+To program the PROM, leave JP1 open and close JP2 as shown below.
 <img src="./pictures/top - JP1.png">  
 <img src="./pictures/bottom - JP2.png">  
 
-Plug the adapter board into q Universal Programmer and set the target device to AT27C256R.
+Plug the adapter board into a Universal Programmer and set the target device to DIP28 AT27C256R.
 <img src="./pictures/side - pinheader.png">  
 
-Note: Not yet tested !  
+Note: This part of the board has not been tested yet, so I hope it works.
 
 ## Original GBDSO
 
@@ -115,7 +113,7 @@ Total Components: 70
 ## Replacement parts
 
 The input opamps MC33182D is not being sold anymore, at least not on digikey.  
-So looking around I thought the TL062 would be a nice replacement but the numbers weren't similar.  
+So looking around I thought the TL062 would be a nice replacement but the numbers weren't quite similar.  
 I've looked at the TL072 and this one looks pretty good, the only downside is that it isn't a low power opamp.  
 
 If we compare the current consumption from the TL072 and the MC33182D, the TL072 uses 5 times more current (1.4mA typ.) than the MC33182D (420µA).  
@@ -129,15 +127,3 @@ Looking at the information page on TI's website, this is what they say:
 That power reduction is crucial for long lasting batteries.  
 For now though, I'll try the TL062 I currently have and will try the TL072 on a later date.  
 I'll also try to find a suitable, pin-compatible, low power replacement opamp for the TL072.  
-
-
-## TODO
-
-- ~~Change potentiometer footprint to match BOM list component~~  
-The potentiometer I bought fits the footprint, so I don't really need to change it.  
-However, the pot has some metalic piece at the bottom, so you can't have exposed vias beneath it.  
-I've moved the vias so they wouldn't interfere with the pot.  
-
-I'll take a look at the different POT footprints to see if I can find one that fits better to the one I'm using.  
-- ~~Change orientation of potentiometer on PCB so both are the same~~  
-Orientation of pots fixed.  

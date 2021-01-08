@@ -1433,8 +1433,6 @@ Wire Wire Line
 	870  4930 870  4900
 Connection ~ 870  4900
 Wire Wire Line
-	1350 3920 1350 4020
-Wire Wire Line
 	1750 3820 1750 4000
 Wire Wire Line
 	1750 4000 1670 4000
@@ -2296,48 +2294,24 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 5CB7D891
-P 790 1120
-F 0 "J5" H 790 1230 50  0000 C CNN
-F 1 "Conn_01x02" H 810 910 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 790 1120 50  0001 C CNN
-F 3 "~" H 790 1120 50  0001 C CNN
-	1    790  1120
-	-1   0    0    -1  
+P 780 970
+F 0 "J5" H 780 1080 50  0000 C CNN
+F 1 "Conn_01x02" H 800 760 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 780 970 50  0001 C CNN
+F 3 "~" H 780 970 50  0001 C CNN
+	1    780  970 
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J6
 U 1 1 5CB7E2B7
-P 910 3650
-F 0 "J6" H 910 3760 50  0000 C CNN
-F 1 "Conn_01x02" H 980 3440 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 910 3650 50  0001 C CNN
-F 3 "~" H 910 3650 50  0001 C CNN
-	1    910  3650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0127
-U 1 1 5CBDB355
-P 1250 3760
-F 0 "#PWR0127" H 1250 3510 50  0001 C CNN
-F 1 "GND" H 1250 3610 50  0000 C CNN
-F 2 "" H 1250 3760 50  0001 C CNN
-F 3 "" H 1250 3760 50  0001 C CNN
-	1    1250 3760
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1080 1220 1080 1510
-$Comp
-L power:GND #PWR0128
-U 1 1 5CCF1BAC
-P 1200 1220
-F 0 "#PWR0128" H 1200 970 50  0001 C CNN
-F 1 "GND" H 1200 1080 50  0000 C CNN
-F 2 "" H 1200 1220 50  0001 C CNN
-F 3 "" H 1200 1220 50  0001 C CNN
-	1    1200 1220
-	1    0    0    -1  
+P 870 3510
+F 0 "J6" H 870 3620 50  0000 C CNN
+F 1 "Conn_01x02" H 940 3300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 870 3510 50  0001 C CNN
+F 3 "~" H 870 3510 50  0001 C CNN
+	1    870  3510
+	0    -1   -1   0   
 $EndComp
 Text Notes 840  2000 0    50   ~ 0
 CH B
@@ -2501,42 +2475,6 @@ Wire Wire Line
 	8090 4910 8350 4910
 Wire Wire Line
 	8090 5010 8350 5010
-Wire Wire Line
-	1200 1220 1200 1190
-Wire Wire Line
-	1200 1190 1280 1190
-Wire Wire Line
-	1080 1220 990  1220
-Wire Wire Line
-	1200 1120 1200 1190
-Wire Wire Line
-	990  1120 1200 1120
-Connection ~ 1200 1190
-Wire Wire Line
-	1080 1510 1280 1510
-Wire Wire Line
-	1280 1390 1280 1510
-Connection ~ 1280 1510
-Wire Wire Line
-	1280 1510 1280 1670
-Wire Wire Line
-	1350 4020 1150 4020
-Wire Wire Line
-	1150 4020 1150 3750
-Wire Wire Line
-	1150 3750 1110 3750
-Connection ~ 1350 4020
-Wire Wire Line
-	1350 4020 1350 4110
-Wire Wire Line
-	1110 3650 1250 3650
-Wire Wire Line
-	1250 3650 1250 3720
-Connection ~ 1250 3720
-Wire Wire Line
-	1250 3720 1250 3760
-Wire Wire Line
-	1250 3720 1350 3720
 Text GLabel 10550 2840 1    50   Input ~ 0
 +5V
 Wire Wire Line
@@ -2554,6 +2492,36 @@ F 3 "" H 1830 2270 50  0001 C CNN
 	1    1830 2270
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	1350 3920 1350 4110
+Wire Wire Line
+	1280 1390 1280 1670
+Wire Wire Line
+	780  1170 780  1390
+Wire Wire Line
+	780  1390 550  1390
+Wire Wire Line
+	550  1390 550  2520
+Wire Wire Line
+	550  2520 730  2520
+Wire Wire Line
+	880  1170 880  1390
+Wire Wire Line
+	880  1390 1280 1390
+Connection ~ 1280 1390
+Wire Wire Line
+	970  3710 970  3920
+Wire Wire Line
+	970  3920 1350 3920
+Connection ~ 1350 3920
+Wire Wire Line
+	870  3710 870  3920
+Wire Wire Line
+	870  3920 650  3920
+Wire Wire Line
+	650  3920 650  4900
+Wire Wire Line
+	650  4900 870  4900
 Wire Bus Line
 	5370 2545 5370 3350
 Wire Bus Line
