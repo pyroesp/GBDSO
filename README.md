@@ -28,6 +28,15 @@ I'm not responsible if it blows up!
 <img src="./pictures/pcb-v1-front.jpg">   
 <img src="./pictures/pcb-v2.jpeg">   
 
+## Game Boy test
+
+Since the big v2 update on 2021/01/08, this GBDSO board works on both channels.  
+See pictures below:  
+
+
+<img src="./pictures/channel_a.jpg">   
+<img src="./pictures/channel_b.jpg">   
+
 ## Official game cart dimensions
 
 Below you'll find the dimensions for the PCB of an official game (Pokémon Yellow JAP).  
