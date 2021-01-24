@@ -21,12 +21,13 @@ I'm not responsible if it blows up!
 
 ## PCB
 
-<img src="./pictures/pcb.png"> 
-<img src="./pictures/pcb-front.png">  
-<img src="./pictures/pcb-back.png">   
 <img src="./pictures/pcb-v0.png">   
 <img src="./pictures/pcb-v1-front.jpg">   
+<img src="./pictures/pcb.png">  
+<img src="./pictures/pcb-front.png">  
+<img src="./pictures/pcb-back.png">   
 <img src="./pictures/pcb-v2.jpeg">   
+<img src="./pictures/pcb-v2-assembled.jpeg">   
 
 ## Game Boy test
 
