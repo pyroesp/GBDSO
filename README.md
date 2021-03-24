@@ -1,6 +1,3 @@
-**THIS DOES NOT WORK YET**  
-
-
 # GBDSO
 
 GBDSO Website : http://swelectronics.co.uk/Gameboy/DsoDemo/DsoDemo.htm  
